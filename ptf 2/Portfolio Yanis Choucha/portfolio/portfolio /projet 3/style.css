@@ -1,0 +1,225 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* First page ========================================================*/
+
+.first-page {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;   /*#ffffff; */
+}
+
+.first-page__main-heading {
+  color: rgb(255, 255, 255);
+  font-family: 'Space Mono', monospace;
+  font-size: 6rem;
+  font-style: normal; 
+  font-weight: normal;
+  padding-bottom: 2.5rem;
+  text-align: center;
+} 
+
+
+
+
+.first-page__intro-text {
+  /* color: #000; */
+  font-family: 'Space Mono', monospace;
+  font-size: 3rem;
+  font-style: italic;
+  
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.first-page__small-layout {
+  display: flex;
+  flex-direction: row;
+  height: 55%;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+
+.first-page__img-placeholder {
+  align-items: center;
+  background-image: url(../projets/mmi/couverturesprojets/infographie\ électricité.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 41%;
+}
+
+.first-page__img-placeholder--text {
+  color: rgb(255, 255, 255);
+  font-family: 'Space Mono', monospace;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  width: 70%;
+}
+
+.first-page__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+  width: 70%;
+}
+
+.first-page__sub-heading {
+  color: rgb(255, 255, 255);
+  font-family: 'Space Mono', monospace;
+  font-size: 2rem;
+  /* font-style: normal; */
+  font-weight: 900;
+  height: 10%;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.first-page__sub-heading:hover {
+  color: #ffffff;
+
+}
+
+.first-page__body-text-container {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 2rem;
+  height: 90%;
+  overflow-x: hidden;
+}
+
+.first-page__body-text {
+  color: rgb(255, 255, 255);
+  font-family: 'Space Mono', monospace;
+  font-size: 2.25rem;
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  /* line-height: normal; */
+  padding-bottom: 3rem;
+  transition: all .2s ease;
+}
+
+
+/* Second page =======================================================*/
+
+
+
+.second-page {
+  align-items: center;
+  background: linear-gradient(
+  #000000,
+  #000000
+  );
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.listederoulante{
+  color: #FFF;
+}
+.second-page__main-heading:hover {
+  color: #a70c84;
+  /* font-family: 'Pacifico', cursive; */
+  /* font-size: 6rem; */
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  /* letter-spacing: normal; */
+}
+
+.second-page__body-text-container {
+  padding-bottom: 3rem;
+  width: 60%;
+}
+
+.second-page__body-text {
+  color: #FFF;
+  font-family: 'Space Mono', monospace;
+  font-size: 2.25rem;
+
+  padding-bottom: 3rem;
+  transition: all .2s ease;
+}
+
+
+.second-page__btn-container {
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50rem;
+}
+
+.second-page__cta-btn {
+  border-radius: 30px;
+  /* color: #000; */
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 2.25rem;
+  /* font-style: normal; */
+  font-weight: bolder;
+  /* letter-spacing: normal; */
+  padding: 1.5rem 1.5rem;
+  text-decoration: none;
+  transition: all .2s ease-in;
+  width: 20rem;
+}
+
+.cta-btn--01 {
+  background-color: #fbff8400;
+  border: 4px #118f00 solid;
+  color: #ffffff;
+  /* font-family: 'Baloo Chettan 2', cursive; */
+  /* font-size: 2.25rem; */
+  /* font-style: normal; */
+  /* font-weight: bolder; */
+  /* letter-spacing: normal; */
+}
+
+.cta-btn--01:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border: 4px #ffffff solid;
+  color: #ffffff;
+  /* font-family: 'Baloo Chettan 2', cursive; */
+  /* font-size: 2.25rem; */
+  /* font-style: normal; */
+  /* font-weight: bolder; */
+  /* letter-spacing: normal; */
+}
+
+.cta-btn--02 {
+  background-color: rgba(0,0,0,0);
+  border: 4px #118f00 solid;
+  color: #ffffff;
+  /* font-family: 'Baloo Chettan 2', cursive; */
+  /* font-size: 2.25rem; */
+  /* font-style: normal; */
+  /* font-weight: bolder; */
+  /* letter-spacing: normal; */
+}
+
+.cta-btn--02:hover {
+  background-color: #a70c8300;
+  border: 4px  #ffffff solid;
+  color: #ffffff;
+  /* font-family: 'Baloo Chettan 2', cursive; */
+  /* font-size: 2.25rem; */
+  /* font-style: normal; */
+  /* font-weight: bolder; */
+  /* letter-spacing: normal; */
+}
+
+
